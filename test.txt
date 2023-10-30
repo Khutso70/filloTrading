@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fillo Trading - Men's Boutique</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .description {
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .description p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-6">
+            <div class="row no-gutters">
+                <div class="col-6 mb-3">
+                    <div class="gallery">
+                        <img src="https://via.placeholder.com/600" data-toggle="modal" data-target="#image1" alt="Image 1">
+                    </div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="gallery">
+                        <img src="https://via.placeholder.com/600" data-toggle="modal" data-target="#image2" alt="Image 2">
+                    </div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="gallery">
+                        <img src="https://via.placeholder.com/600" data-toggle="modal" data-target="#image3" alt="Image 3">
+                    </div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="gallery">
+                        <img src="https://via.placeholder.com/600" data-toggle="modal" data-target="#image4" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="description">
+                <h2>Fillo Trading - Men's Boutique</h2>
+                <p>Welcome to Fillo Trading, where style meets sophistication. Our boutique offers a wide range of men's clothing for every occasion.</p>
+                <p>Explore our exclusive collection, including:</p>
+                <ul>
+                    <li>Tailored Suits & Formal Wear</li>
+                    <li>Casual Elegance & Everyday Style</li>
+                    <li>Accessories - From Ties to Shoes</li>
+                </ul>
+                <p>Our expert stylists are here to assist you in creating the perfect wardrobe. Visit us today and redefine your style with Fillo Trading.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals for enlarged images -->
+<div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="image1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="https://via.placeholder.com/600" class="img-fluid" alt="Image 1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="image2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="https://via.placeholder.com/600" class="img-fluid" alt="Image 2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="image3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="https://via.placeholder.com/600" class="img-fluid" alt="Image 3">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="image4" tabindex="-1" role="dialog" aria-labelledby="image4Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="https://via.placeholder.com/600" class="img-fluid" alt="Image 4">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and jQuery (optional, if required for your specific application) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@1,600&display=swap');
+
+.container-fluid{
+  
+  background: #010f3f;
+}
+#carouselExampleSlidesOnly img{
+ 
+    height: 100vh !important;
+    width: 90%;
+}
+h1{
+    color:transparent;
+}
+.hero-text{
+    width: 25%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5)50%, #010f3f 50%);
+    
+    position: absolute;
+    height: 100%;
+    left: 75%;
+    top:0;
+}
+.hero-text h1{
+  font-family: "Bebas Neue";
+    color: #ffffff;
+    outline-color: aliceblue;
+}
+.hero-text p{
+    font-family: "EB Garamond";
+    color: #eeff00;
+}
+.hero-text .btn{
+   
+    background-color: #777;
+    color: #fff;
+}
+.hero-text .btn:hover{
+    font-family: "EB Garamond";
+   background-color: #ffe600;
+   color: #000; 
+}
+.mini-space{
+
+    height: 25%;
+}
+#about{
+
+    position: relative;
+    background: #7e7e7e;
+    z-index: 99;
+    margin-top: -5%;
+}
+ #gallery{
+   background: #ffffff;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.description {
+    padding: 20px;
+    text-align: justify;
+}
+
+.description p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+@media only screen and (min-width: 700px) {
+    .container-fluid{height: 100vh !important;
+    }
+}
+@media only screen and (max-width: 699px) {
+#carouselExampleSlidesOnly img{
+        width: 100%;
+        max-height: 50vh !important;
+    }
+.hero-text h1{
+        font-size: 1rem !important;
+    }
+.hero-text p{
+        font-size: 0.8rem !important;
+    }
+.container-fluid{
+        height: 50vh;
+         background: #010f3f;
+     }
+}
