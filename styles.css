@@ -66,15 +66,9 @@ h1{
     transform: scale(1.1);
 }
 
-.description {
-    padding: 20px;
-    text-align: justify;
-}
 
-.description p {
-    font-size: 18px;
-    line-height: 1.6;
-}
+
+
 @media only screen and (min-width: 700px) {
     .container-fluid{height: 100vh !important;
     }
