@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital,wght@1,600&display=swap');
 
-.container-fluid{
-  
-  background: #010f3f;
-}
+body{
+
+   
+    background:url(Images/wooden-texture_1194-5742.jpg);
+
+ }
+
 #carouselExampleSlidesOnly img{
  
     height: 100vh !important;
@@ -47,12 +50,9 @@ h1{
 #about{
 
     position: relative;
-    background: #7e7e7e;
+    background: #ffffff;
     z-index: 99;
     margin-top: -5%;
-}
- #gallery{
-   background: #ffffff;
 }
 
 .gallery img {
@@ -66,9 +66,16 @@ h1{
     transform: scale(1.1);
 }
 
+.colNum2{
+    background-color: #5f5f5fd0;
+    color: #ffffff;
+}
 
-
-
+.description img{
+    
+  
+width: 100%;
+}
 @media only screen and (min-width: 700px) {
     .container-fluid{height: 100vh !important;
     }
@@ -86,6 +93,6 @@ h1{
     }
 .container-fluid{
         height: 50vh;
-         background: #010f3f;
+        
      }
 }
